@@ -3,7 +3,7 @@ require 'pry'
 class String
 
   def sentence?
-    if sentence.split
+    if sentence.split.last
   end
 
   def question?
